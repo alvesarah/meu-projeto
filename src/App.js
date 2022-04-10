@@ -1,4 +1,5 @@
 import './App.css';
+import HelloWorld from './components/HelloWorld';
 
 function App() {
   const nome = "Sarah";
@@ -17,6 +18,7 @@ function App() {
       <p>Ola, {nomeMaiusculo}</p>
       <p>Soma {soma(3, 4)}</p>
       <img src={url} alt="Minha imagem"/>
+      <HelloWorld/>
     </div>
   );
 }
