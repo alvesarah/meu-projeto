@@ -1,24 +1,13 @@
 import './App.css';
 import HelloWorld from './components/HelloWorld';
+import SayMyName from './components/SayMyName';
+import Pessoa from './components/Pessoa';
 
 function App() {
-  const nome = "Sarah";
-  
-  const nomeMaiusculo = nome.toUpperCase();
-
-  function soma(a,b){
-    return a + b;
-  }
-
-  const url = "https://via.placeholder.com/150";
-
   return (
     <div className="App">
-      <h1>Ola react!</h1>
-      <p>Ola, {nomeMaiusculo}</p>
-      <p>Soma {soma(3, 4)}</p>
-      <img src={url} alt="Minha imagem"/>
-      <HelloWorld/>
+      <SayMyName nome="Sarah"/>
+      <Pessoa nome="Sarah" idade="22" profissao="desenvolvedora" foto="https://via.placeholder.com/150" />
     </div>
   );
 }
