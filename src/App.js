@@ -5,6 +5,7 @@ import Frase from './components/Frase';
 import List from './components/List';
 import Evento from './components/Evento';
 import Form from './components/Form';
+import Condicional from './components/Condicional';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
       <Evento/>
       <h1>useState</h1>
       <Form/>
+      <h1>Renderização Condicional</h1>
+      <Condicional/>
     </div>
   );
 }
