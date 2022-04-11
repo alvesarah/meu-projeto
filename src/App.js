@@ -19,8 +19,7 @@ function App() {
       <h1>PropTypes e DefaultProps</h1>
       <List/>
       <h1>Eventos no React</h1>
-      <Evento numero="1"/>
-      <Evento numero="2"/>
+      <Evento/>
       <h1>useState</h1>
       <Form/>
     </div>
